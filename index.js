@@ -9,5 +9,5 @@ function check(){
         newUrl = `https://${newUrl}`
     }
     
-    embed.src = newUrl;
+    embed.src = "http://www.whateverorigin.org/get?url=" + newUrl;
 }
